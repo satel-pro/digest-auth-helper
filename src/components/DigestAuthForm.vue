@@ -27,7 +27,7 @@ const realm = ref('REGISTRAR')
 const password = ref('Uk6z3NGt')
 const nonce = ref('4AC3219D')
 const method = ref('SUBSCRIBE')
-const uri = ref('sip:1234@webclientrtustage.satel.org:5059')
+const uri = ref('')
 
 const ha1 = computed(() => {
   return md5(`${username.value}:${realm.value}:${password.value}`)
